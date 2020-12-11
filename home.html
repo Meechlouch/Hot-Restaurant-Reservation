@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Star Wars - Express</title>
+  <title>Restaurant</title>
   <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -19,14 +19,24 @@
   <div class="container">
     <div class="jumbotron">
       <h1 class="text-center">Welcome to Chile's</h1>
-      <h4 class="text-center">If you're hungry make a reservation</h3>
+      <h4 class="text-center">We got tables! Come and get it.</h3>
       <hr>
       <div class="text-center">
-      <a href="/add"><button class="btn btn-danger btn-lg">Tables</button></a>
-      <a href="/api/characters"><button class="btn btn-danger btn-lg">Reservation</button></a>
+      <a href="/tables.html"><button class="btn btn-danger btn-lg">Tables</button></a>
+      <a href="/reserve.html"><button class="btn btn-danger btn-lg">Reservation</button></a>
       </div>
     </div>
   </div>
+
+  <footer class="footer">
+    <div class="container">
+        <p>
+            <a href="/api/tables">API Table Link</a>
+                 |
+            <a href="/api/waitlist">API Wait List</a>
+        </p>
+    </div>
+</footer>
 
   
 </body>
