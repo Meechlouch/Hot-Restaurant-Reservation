@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Tables</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center">Welcome to Chile's</h1>
+      <h4 class="text-center">Current Reservations and Waiting List</h3>
+      <hr>
+      <div class="text-center">
+      <a href="/reserve.html"><button class="btn btn-danger btn-lg">Reservation</button></a>
+      <a href="/home.html"><button class="btn btn-danger btn-lg">Home</button></a>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-12">
+          <div class="card mb-4">
+              <div class="card-header">
+                  <h5>Current Reservations</h5>
+              </div>
+              <div class="card-body" id="currentReservation">
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+          <div class="card mb-4">
+              <div class="card-header">
+                  <h5>Waiting List</h5>
+              </div>
+              <div class="card-body" id="waitingList">
+              </div>
+          </div>
+      </div>
+    </div>
+  
+  
+    <footer class="footer">
+      <div class="container">
+          <p>
+              <a href="/api/tables">API Table Link</a>
+                   |
+              <a href="/api/waitlist">API Wait List</a>
+          </p>
+      </div>
+  </div>
+
+</footer>
+
+  
+</body>
+
+</html>
